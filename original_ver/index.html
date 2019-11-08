@@ -4,12 +4,10 @@
 	<meta charset="UTF-8" />
   <title>파랑의 역사</title>
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/fullpage.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/style.css" />
   <script src="js/jquery-1.12.3.js"></script>
   <script src="js/jquery.easing.min.js"></script>
-  <script src="js/fullpage.js"></script>
 	<script src="js/function.js"></script>
 </head>
 <body>
@@ -17,13 +15,25 @@
   <div id="wrap">
     <header>
       <h1>파랑의 역사</h1>
+
+      <h2 class="sr-only">책의 목차</h2>
+      <nav>
+        <ol class="gnb">
+          <li class="on"><a href="#">파랑의 역사</a></li>
+          <li><a href="#">색과 역사</a></li>
+          <li><a href="#">보이지 않는 색</a></li>
+          <li><a href="#">새로운 색</a></li>
+          <li><a href="#">경건한 색</a></li>
+          <li><a href="#">가장 사랑받는 색</a></li>
+        </ol>
+      </nav>
     </header><!--end of header-->
     <hr>
 
-    <section id="fullpage" class="section">
+    <section>
       <!-- 파랑의 역사(Home) -->
       <h2 class="sr-only">목차 1.</h2>
-      <div class="cont cont_home section">
+      <article class="cont cont_home">
         <h2>파랑의 역사</h2>
         <h3>
           파란색은 어떻게<br>
@@ -36,16 +46,16 @@
 
         <div class="img_bg"></div>
         <div class="img">표지 그림 「수태고지」</div>
-      </div>
+      </article>
       <hr>
 
       <!-- 색과 역사 -->
       <h2 class="sr-only">목차 2.</h2>
-      <div class="cont cont_0 section">
+      <article class="cont cont_0">
         <div class="bg">
         <h2>색과 역사</h2>
 
-          <div class="slides clearfix">
+          <div class="slide clearfix">
             <ul>
               <li class="name clearfix">
                 <h3>색의 역사</h3>
@@ -90,12 +100,12 @@
           <span class="next">다음</span>
           
         </div><!--close bg-->
-      </div>
+      </article>
       <hr>
 
       <!-- 보이지 않는 색 -->
       <h2 class="sr-only">목차 3.</h2>
-      <div class="cont cont_1 section">
+      <article class="cont cont_1">
         <div class="bg">
           <h2>보이지 않는 색</h2>
           <h3>파란색</h3>
@@ -121,12 +131,12 @@
             <li><a href="images/content_2_big_5.jpg" title="글라우코스">글라우코스</a></li>
           </ul>
         </div>
-      </div>
+      </article>
       <hr>
 
       <!-- 새로운 색 -->
       <h2 class="sr-only">목차 4.</h2>
-      <div class="cont cont_2 section">
+      <article class="cont cont_2">
         <div class="bg">
           <h2>새로운 색</h2>
 
@@ -164,12 +174,12 @@
           <span class="prev">이전</span>
           <span class="next">다음</span>
         </div>
-      </div>
+      </article>
       <hr>
 
       <!-- 경건한 색 -->
       <h2 class="sr-only">목차 5.</h2>
-      <div class="cont cont_3 section">
+      <article class="cont cont_3">
         <div class="bg">
           <h2>경건한 색</h2>
 
@@ -210,12 +220,12 @@
             </ul>
           </div>
         </div>
-      </div>
+      </article>
       <hr>
 
       <!-- 가장 사랑받는 색 -->
       <h2 class="sr-only">목차 6.</h2>
-      <div class="cont cont_4 section">
+      <article class="cont cont_4">
         <div class="bg">
           <h2>가장 사랑받는 색</h2>
 
@@ -235,21 +245,15 @@
             <li><a href="images/content_5_big_4.jpg" title="「청색스펀지를 이용한 돌출 효과」 1957년경, 이브 클랭">이미지 자료 4</a></li>
           </ul>
         </div>
-      </div>
-      <hr>
-
-      <div class="cont cont_5 section">
-        <footer>
-          <address>
-            미셸 파스투로(지은이), 고봉만, 김연실(옮긴이), 민음사<br>
-            본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.<br>
-            &copy; 2019 Kim, Ji-Min. All Rights Reserved.
-          </address>
-        </footer><!-- end of footer -->
-      </div>
+      </article>
     </section><!--end of section-->
-  </div><!--end of wrap-->
 
-<script src="js/fullpage_initial.js"></script>
+    <hr>
+    <footer>
+      <address>
+        본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다. &copy; 2019 Kim, Ji-Min. All Rights Reserved.
+      </address>
+    </footer><!--end of footer-->
+  </div>
 </body>
 </html>
